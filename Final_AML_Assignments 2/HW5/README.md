@@ -12,6 +12,8 @@ use and effective. You should report
 (a.2) the class confusion matrix of your classifier.
 
 
-(b) Now see if you can improve your classifier by (a) modifying the number
-of cluster centers in your hierarchical k-means and (b) modifying the size
-of the fixed length samples that you use
+(b) Now see if you can improve your classifier by 
+
+(b.1) modifying the number of cluster centers in your hierarchical k-means 
+
+(b.2) modifying the size of the fixed length samples that you use
