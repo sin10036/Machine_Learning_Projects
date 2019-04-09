@@ -27,7 +27,7 @@ Bounding box: Construct a 20 x 20 bounding box so that the horizontal (resp. ver
 Stretched bounding box: Construct a 20 x 20 bounding box so that the horizontal (resp. vertical) range of ink pixels runs the full horizontal (resp. vertical) range of the box. Obtaining this representation will involve rescaling image pixels: you find the horizontal and vertical ink range, cut that out of the original image, then resize the result to 20 x 20. Once the image has been re-centered, you can compute features.
 Here are some pictures, which may help
 
-![](images/Capture.png)
+![](images/Capture.PNG)
 
 Part 2A
 Investigate classifying MNIST using naive Bayes. Compute the accuracy values for the four combinations of Gaussian v. Bernoulli distributions and untouched images v. stretched bounding boxes. Please use 20 x 20 for your bounding box dimensions.
