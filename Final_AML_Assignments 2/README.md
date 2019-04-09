@@ -5,6 +5,7 @@ A famous collection of data on whether a patient has diabetes, known as the Pima
 
 
 Part 1A Build a simple naive Bayes classifier to classify this data set. You should use a normal distribution to model each of the class-conditional distributions. You should write this classifier yourself (it's quite straight-forward). Compute an estimate of the accuracy of the classifier by averaging over 10 test-train splits. Each split should randomly assign 20% of the data to test, and the rest to train.
+
 Part 1B Now adjust your code so that, for attribute 3 (Diastolic blood pressure), attribute 4 (Triceps skin fold thickness), attribute 6 (Body mass index), and attribute 8 (Age), it regards a value of 0 as a missing value when estimating the class-conditional distributions, and the posterior. R uses a special number NA to flag a missing value. Most functions handle this number in special, but sensible, ways; but you'll need to do a bit of looking at manuals to check. Compute an estimate of the accuracy of the classifier by averaging over 10 test-train splits. Each split should randomly assign 20% of the data to test, and the rest to train.
 
 Part 1-D Now install SVMLight, which you can find at http://svmlight.joachims.org. Use this to to train and evaluate an SVM to classify this data. For training the model, use:
